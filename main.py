@@ -10,7 +10,6 @@ from telegram.ext import (
 )
 
 # ===== CONFIG =====
-import os
 BOT_TOKEN = os.environ.get("8321132793:AAGuH9lF_GMyYh2EYlvjt29M9m_dN01_r8U")
 if not BOT_TOKEN:
     raise ValueError("Bot token not set. Please set BOT_TOKEN environment variable.")
@@ -134,3 +133,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
